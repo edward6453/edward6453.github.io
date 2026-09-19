@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal homepage of David, an undergraduate student." />
+  <title>David | Personal Homepage</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <nav class="topbar">
+      <a class="brand" href="#">David</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="kicker">UNDERGRADUATE STUDENT</p>
+          <h1>Hello, I'm David.</h1>
+          <p class="lead">
+            I am an undergraduate student interested in computer science,
+            technology, and building useful things.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="mailto:david@stu.xhu.edu.cn">Contact Me</a>
+            <a class="button secondary" href="#projects">View Projects</a>
+          </div>
+        </div>
+
+        <aside class="profile-card">
+          <div class="monogram">D</div>
+          <div class="profile-meta">
+            <p class="label">Status</p>
+            <p>Undergraduate Student</p>
+          </div>
+          <div class="profile-meta">
+            <p class="label">Email</p>
+            <a href="mailto:david@stu.xhu.edu.cn">david@stu.xhu.edu.cn</a>
+          </div>
+          <div class="profile-meta">
+            <p class="label">Focus</p>
+            <p>Learning · Projects · Research</p>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="content-section split">
+        <div>
+          <p class="section-number">01</p>
+          <h2>About</h2>
+        </div>
+        <p class="section-text">
+          This website is a simple place to collect my academic interests,
+          personal projects, and contact information. I enjoy learning new
+          technologies and exploring practical ideas through coursework and
+          independent projects.
+        </p>
+      </section>
+
+      <section id="interests" class="content-section">
+        <div class="section-heading">
+          <div>
+            <p class="section-number">02</p>
+            <h2>Interests</h2>
+          </div>
+          <p>General areas I am interested in exploring.</p>
+        </div>
+
+        <div class="interest-grid">
+          <div class="interest-item">
+            <span>01</span>
+            <h3>Computer Science</h3>
+            <p>Programming, systems, algorithms, and problem solving.</p>
+          </div>
+          <div class="interest-item">
+            <span>02</span>
+            <h3>Artificial Intelligence</h3>
+            <p>Machine learning and intelligent software systems.</p>
+          </div>
+          <div class="interest-item">
+            <span>03</span>
+            <h3>Software Development</h3>
+            <p>Building reliable and useful applications.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="content-section">
+        <div class="section-heading">
+          <div>
+            <p class="section-number">03</p>
+            <h2>Projects</h2>
+          </div>
+          <p>Placeholder entries that can be replaced later.</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-row">
+            <div>
+              <p class="project-type">COURSE / PERSONAL PROJECT</p>
+              <h3>Project One</h3>
+            </div>
+            <p>
+              Add a short description of a project here, including what it does
+              and what you learned from it.
+            </p>
+          </article>
+
+          <article class="project-row">
+            <div>
+              <p class="project-type">COURSE / PERSONAL PROJECT</p>
+              <h3>Project Two</h3>
+            </div>
+            <p>
+              Use this section for another project, research experience, or
+              technical activity in the future.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <p class="section-number">04</p>
+        <h2>Get in touch.</h2>
+        <p>
+          The easiest way to reach me is by email.
+        </p>
+        <a class="email-link" href="mailto:david@stu.xhu.edu.cn">
+          david@stu.xhu.edu.cn
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <span>David</span>
+      <span>Personal Homepage</span>
+      <span id="year"></span>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
